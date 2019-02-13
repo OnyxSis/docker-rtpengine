@@ -5,7 +5,7 @@ services:
     privileged: true
     build:
       context: .
-      dockerfile: Dockerfile.centos7
+      dockerfile: Dockerfile.debian8
     network_mode: host
     environment:
       # Comment the variables that you don't want to be used for the configuration

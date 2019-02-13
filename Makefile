@@ -1,3 +1,4 @@
-all:
-	docker-compose build
-	docker-compose up --force-recreate
+include Makefile.mk
+
+NAME=rtpengine-container
+USERNAME=onyxsis
